@@ -4,5 +4,6 @@ from . import views
 app_name = 'webapp'
 
 urlpatterns = [
-    path('', views.home, name='home')
+    path('', views.index, name='index'),
+    path('predictImage', views.predictImage, name='predictImage')
 ]
