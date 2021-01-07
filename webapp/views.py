@@ -64,3 +64,5 @@ def predictImage(request):
         'predictedLabel': label,
     }
     return render(request, 'index.html', context=ctx)
+
+# def viewDataBase(request):
